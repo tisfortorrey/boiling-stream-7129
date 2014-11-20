@@ -1,7 +1,7 @@
 require 'json'
 
 # URI to the installed app root
-host_uri = ENV["DASHING_URI"] || 'http://localhost:3030'
+host_uri = ENV["http://torrey-board.herokuapp.com"] || 'http://localhost:3030'
 
 # SmartApp credentials
 client_id = ENV["98c38d8c-63ac-42f6-b217-d82ac9b9a046"]
