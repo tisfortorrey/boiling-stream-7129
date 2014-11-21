@@ -4,9 +4,9 @@ require 'json'
 host_uri = ENV["http://torrey-board.herokuapp.com"] || 'http://localhost:3030'
 
 # SmartApp credentials
-client_id = ENV["98c38d8c-63ac-42f6-b217-d82ac9b9a046"]
+client_id = ENV["009d99cb-e59e-4036-9c48-1850e29cac1e"]
 # Keeping ST_API_KEY for compatibility (was renamed to ST_CLIENT_SECRET)
-client_secret = ENV["c00353fe-53cb-4cbd-bbf7-dc3662c6d49a"] || ENV["ST_API_KEY"]
+client_secret = ENV["0efd0b32-3277-4e9b-be02-5d1a683d57ec"] || ENV["ST_API_KEY"]
 
 # Create a new STApp instance for communication with the SmartApp
 app = STApp.new(
